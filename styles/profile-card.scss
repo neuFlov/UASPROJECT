@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Sans-serif';
+  background-color: whitesmoke;
+  
+  // display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+ 
+  
+}
+ 
+.card {
+    border: 2px solid #066955;
+    box-shadow: 5px 6px 0px #17a589;
+    transition: 0.3s all;
+    border-radius: 3px;
+    background-color:rgb(222, 233, 205);
+    padding: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    max-width: 95%;
+  
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .title {
+    color: rgb(255, 255, 255);
+    margin: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    transition: .2s;
+    cursor: pointer;
+    
+    &--legendary {
+      background-color: #f4d03f;
+      &:hover {
+        box-shadow: 0 0 12px rgba(#f4d03f, .8);
+      }
+    }
+    
+        &--epic {
+      background-color: #9fc14d;
+      &:hover {
+        box-shadow: 0 0 12px rgba(#fcf814, .8);
+      }
+    }
+    
+        &--common {
+      background-color: #2ecc71;
+      &:hover {
+        box-shadow: 0 0 12px rgba(#2ecc71, .8);
+      }
+    }
+    
+  }
+  
+  .desc {
+    text-align: center;
+  }
+  
+  .actions {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    button {
+      padding: .5rem .8rem;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      text-transform: uppercase;
+      outline: 0;
+      transition: background-color .4s, color .4s, transform .1s;
+      &:hover {
+        color: rgba(47, 0, 255, 0.774);
+      }
+      
+      &:active {
+        transform: scale(0.95);
+        box-shadow: 0 0 16px rgba(black, .3);
+      }
+    }
+    
+    &__like {
+      &:hover {
+        background: #fcf814;
+        }
+    }
+    
+        &__trade {
+      &:hover {
+        background: #00ff0d;
+      }
+    }
+    
+        &__cancel {
+      &:hover {
+        background-color: #c0392b;
+      }
+    }
+  }
+}
+
+p {
+  margin-top: 1rem;
+  color: #484848;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #2574a9;
+}
+
+.active {
+      text-transform:uppercase;
+      text-align: center;
+      font-family: 'Comic Sans MS';
+       color: #000000;
+  }
+
+
+
+button::-moz-focus-inner {
+  border: 0;
+}
+

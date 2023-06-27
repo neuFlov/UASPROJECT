@@ -1,0 +1,178 @@
+/* #formadd{
+    /* background-color: #f09595; */
+    
+
+
+.posisi{
+  align-items: center;
+}
+/* #formedit{
+    /* background-color: #23deef; */
+    
+
+
+.show{
+    display: inline, !important;
+}
+
+
+
+.hide{
+    display: none;
+}
+.navbar {
+    float: left !important;
+    background-color: #e8e7f7; /* Warna latar belakang navbar */
+    padding: 20px; /* Padding untuk ruang di sekitar teks navbar */
+    width: 100%;
+    /* position: fixed; */
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Menghilangkan bullet list pada navbar */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display:inline-flex; /* Mengatur item navbar dalam satu baris */
+    margin-right: 10px; /* Ruang antara item navbar */
+  }
+  
+  .navbar li a {
+    color: #000000; /* Warna teks navbar */
+    text-decoration:none; /* Menghapus garis bawah pada tautan */
+    padding: 5px 10px; /* Padding untuk ruang di sekitar teks tautan */
+  }
+  
+  .navbar li a:hover {
+    background-color: #00e1ff; /* Warna latar belakang saat tautan dihover */
+    border-radius: 10px;
+  }
+  
+  .textarea {
+    background-color: #e1d4d4; /* Ganti dengan warna latar belakang yang diinginkan */
+    border: 2px solid #00ffff; /* Atur tampilan border sesuai kebutuhan */
+    border-radius: 5px; /* Atur tingkat pembulatan sudut sesuai kebutuhan */
+    padding: 10px; /* Atur jarak antara teks dengan tepi textarea */
+    font-size: 19px; /* Atur ukuran font sesuai kebutuhan */
+    color: #000000; /* Atur warna teks sesuai kebutuhan */
+  }
+  
+  
+  .textarea:focus {
+    outline: none;
+    border-color: #00a0e9;
+    box-shadow: 0 0 5px #00a0e9;
+  }
+  .buttonsubmit {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff305;
+    color: #000000;
+    border:color(srgb red green blue);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right :20px; 
+  }
+  .buttonsubmit:hover {
+    background-color: #45a049;
+  }
+
+.button-cancel {
+    background-color: #06ff2f; /* Ganti dengan warna latar belakang yang diinginkan */
+    color: #000000; /* Ganti dengan warna teks yang diinginkan */
+    border: color(srgb red green blue);
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+    margin-top: 8px;
+  }
+  
+.button-cancel:hover {
+    background-color: #5500ff; /* Ganti dengan warna latar belakang hover yang diinginkan */
+  }
+  
+.left {
+  align-items: left;
+}
+
+.body-turnamen {
+  background-size: cover;
+  background-image: url('https://thumbs.dreamstime.com/b/football-soccer-ball-kickoff-game-sunset-38302251.jpg');
+  background-position: center;
+  height: 603px;
+}
+.body-index {
+  text-transform: uppercase;
+  text-align:center;
+  font-weight: 700;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+  color: #ffffff;
+  font-family:monospace;
+  background-size: cover;
+  height: 643px;
+  background-image: url('https://imgsrv2.voi.id/6c5KNns1Wixwep-JcRmWUpOA4jcoRuVA8tgn4Z9pwXM/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8yMDgzNTkvMjAyMjA5MDkxMzAyLW1vYmlsZS5jcm9wcGVkXzE2NjI3MjY4MTQuanBn.jpg');
+}
+
+
+  
+/* #btnadd{
+  padding: .5rem .8rem;
+      cursor: pointer;
+      background-color:whitesmoke;
+      border: none;
+      text-transform: uppercase;
+      outline: 0;
+      transition: background-color .4s, color .4s, transform .1s; */
+
+
+.label{
+  font-family: 'Segoe UI';
+  font-size: 18px;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+
+.kontak {
+  color: #ffffff;
+  font-style: oblique;
+  font-weight: 1000;
+  font-size: larger;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-size: cover;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+  background-position: center;
+  height: 603px;
+  background-image: url('https://imgsrv2.voi.id/6c5KNns1Wixwep-JcRmWUpOA4jcoRuVA8tgn4Z9pwXM/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8yMDgzNTkvMjAyMjA5MDkxMzAyLW1vYmlsZS5jcm9wcGVkXzE2NjI3MjY4MTQuanBn.jpg');;
+}
+
+.footer {
+  text-align: center;
+  background-color: #e7fee8;
+  font-style: unset;
+  font-family: Verdana;
+  font-size: x-small;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px; /* Tinggi footer */
+}
+
+.p{
+  color: #ffffff;
+  font-style: oblique;
+  font-weight: 1000;
+  font-size: larger;
+}
+
